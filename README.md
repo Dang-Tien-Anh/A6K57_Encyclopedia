@@ -12,11 +12,11 @@ Plain HTML and CSS. No tools, no build step, nothing automatic.
 
 ## Add an article (3 steps)
 
-1. Copy `pages/template.html` and rename it, e.g. `pages/con-meo.html`.
+1. Copy `pages/template.html` and rename it, e.g. `pages/cat.html` (named after the English word).
    Use lowercase letters and `-` only, no spaces or accents in file names.
 2. Fill in the blanks. Put your image in the `images/` folder.
 3. Open `index.html` and add ONE line for your article in the list, in alphabetical order:
-   `<li><a href="pages/con-meo.html">Con mèo (Cat)</a></li>`
+   `<li><a href="pages/cat.html">Cat (Con mèo)</a></li>`
 
 ## Rules so we don't fight each other
 
@@ -33,3 +33,8 @@ Plain HTML and CSS. No tools, no build step, nothing automatic.
 - `theme.js` – the light/dark button, about 15 lines
 - `pages/` – one HTML file per article
 - `images/` – pictures used by articles
+
+## Pages that still have blanks
+
+Pages made from the Word file may contain a yellow `TODO: add ...` (missing source, pronunciation, etc.).
+To find them all: search the `pages/` folder for `TODO`. Replace the yellow part with the real text and remove the `<span class="todo">` tags around it.

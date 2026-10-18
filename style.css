@@ -88,3 +88,6 @@ a { color: var(--link); }
   .infobox { float: none; width: auto; margin: 0 0 16px 0; }
   main { padding: 16px; }
 }
+
+/* Blanks that still need to be filled in (search for TODO in the file) */
+.todo { background: #fff3a3; color: #000000; padding: 0 4px; }
