@@ -1,0 +1,3 @@
+# If two people add a line to the article list at the same time,
+# Git keeps BOTH lines instead of showing a conflict.
+index.html merge=union
