@@ -94,3 +94,6 @@ a { color: var(--link); }
 
 /* Blanks that still need to be filled in (search for TODO in the file) */
 .todo { background: #fff3a3; color: #000000; padding: 0 4px; }
+
+/* Small link next to the site name in the top bar */
+header a.nav { font-size: 1em; font-weight: normal; margin-left: 18px; }

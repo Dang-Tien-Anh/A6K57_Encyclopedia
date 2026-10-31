@@ -29,6 +29,7 @@ Plain HTML and CSS. No tools, no build step, nothing automatic.
 ## Folders
 
 - `index.html` – home page with the article list and search
+- `sources.html` – all the sources (content and images) from the group notes
 - `style.css` – all the colors and layout (light and dark colors are at the top)
 - `theme.js` – the light/dark button, about 15 lines
 - `pages/` – one HTML file per article
