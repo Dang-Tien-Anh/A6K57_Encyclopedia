@@ -1,4 +1,4 @@
-# My Wiki
+# A6K57 Encyclopedia
 
 A tiny Wikipedia-style website with only our own content.
 Plain HTML and CSS. No tools, no build step, nothing automatic.
