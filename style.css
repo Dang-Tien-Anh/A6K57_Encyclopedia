@@ -97,3 +97,6 @@ a { color: var(--link); }
 
 /* Small link next to the site name in the top bar */
 header a.nav { font-size: 1em; font-weight: normal; margin-left: 18px; }
+
+/* Pictures stacked in the info box */
+.infobox img { display: block; margin: 0 auto 6px; }

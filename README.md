@@ -37,5 +37,5 @@ Plain HTML and CSS. No tools, no build step, nothing automatic.
 
 ## Pages that still have blanks
 
-Pages made from the Word file may contain a yellow `TODO: add ...` (missing source, pronunciation, etc.).
-To find them all: search the `pages/` folder for `TODO`. Replace the yellow part with the real text and remove the `<span class="todo">` tags around it.
+- A page with no source says **Source missing** at the bottom. Replace that line with `<p class="sources">Source of information: ...</p>`.
+- Other missing details (pronunciation, word type, meaning) show as a yellow `TODO: add ...`. To find them all, search the `pages/` folder for `TODO`. Replace the yellow part with the real text and remove the `<span class="todo">` tags around it.
